@@ -1,13 +1,7 @@
-# Setting up the Everlife Avatar
+# Setting up Everlife Avatar 24/7 off a Server
 
 This document contains instructions for setting up and running the
 **Everlife** avatar on a server machine.
-
-![Avatar](avatar_256x256.png)
-
-You can, of course, install the node on your desktop if you like. If you would like a GUI version that you can just install you probably should look at [the community node edition](https://github.com/everlifeai/everlife-node-releases/releases/).
-
-The advantage of the server version is that it is optimised for running on a VPS on the cloud and can be customised more easily than the packaged community node.
 
 ## Docker
 
