@@ -1,7 +1,7 @@
-# Setting up Everlife Avatar 24/7 off a Server
+# Setting up Everlife Server Node
 
 This document contains instructions for setting up and running the
-**Everlife** avatar on a server machine.
+**Everlife** avatar on a server machine. 
 
 ## Docker
 
