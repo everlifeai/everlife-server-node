@@ -1,6 +1,10 @@
-# Your Everlife.Ai Avatar Node
+# Everlife Avatar Node
+Welcome to EverLife - Personal Avatar Network
 
-This is the “server” version of the Everlife.ai Avatar. It can run on docker, mac, linux or windows environment. 
+Create a LIFIE - An immutable Avatar of yourself.
+Your Avatar can connect, collaborate and evolve with millions of other Avatars on the network while preserving your Legacy.
+
+Avatars do tasks based on the skills they acquire and earn in EVER tokens for the work they do.
 
 ## Installation & Setup
 
