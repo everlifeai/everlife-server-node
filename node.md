@@ -5,11 +5,13 @@ This document contains instructions for setting up and running the
 
 ## Install
 
-To install the Everlife avatar, follow the instructions according to your operating system. After installing, use the `/intro` command and the avatar itself will walk you through a short guide.
+To install the Everlife avatar, follow the instructions according to your operating system. 
 
 | Jump to: | [Windows](#windows) | [MacOS](#macos) | [Ubuntu / DEBIAN](#ubuntudebian) | [CentOS / Red Hat](#centos) | [Docker](#docker) |
 | -------- | ------------------- | --------------- | -------------------------------- | --------------------------- | ----------------- |
 |          |                     |                 |                                  |                             |                   |
+
+Once the install is complete you can proceed to chat with your avatar. It is recommended you start with the the `/intro` command and the avatar itself will walk you through a short guide.
 
 ------
 
