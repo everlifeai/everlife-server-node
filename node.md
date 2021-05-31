@@ -44,7 +44,7 @@ Once you are set up, you can proceed to [editing the configuration](#config), an
 
 ------
 
-<a name=mac></a>
+<a name=macos></a>
 
 ## Mac Setup
 
