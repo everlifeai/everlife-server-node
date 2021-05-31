@@ -18,5 +18,5 @@ EXPOSE_PORTS=$(node run.js --docker-port-param)
 docker run -it --rm \
   $EXPOSE_PORTS \
   -v ${ELIFE_HOME_DIR}:/root/everlifeai \
-  charleslobo77/everlife-server-node:latest \
+  everlifeai/everlife-server-node:latest \
   node run.js -n $NUM
