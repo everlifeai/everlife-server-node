@@ -28,8 +28,9 @@ There are two options for running docker. The first way is to download and use t
 This is the most flexible way to run and would be recommended if you want to edit the source code and modify the node for your particular use.
 
 1. Install [Docker](https://www.docker.com)
-2. Download [this repo](https://github.com/everlifeai/everlife-server-node)
-3. Run `./run-docker.sh`
+2. Install [Git](https://git-scm.com/)
+3. Download [this repo](https://github.com/everlifeai/everlife-server-node)
+4. Run `./run-docker.sh`
 
 #### Running from Docker Hub
 
@@ -49,9 +50,11 @@ Once you are set up, you can proceed to [editing the configuration](#config), an
 
 Installing on your Mac is simple. You can use a package manager like [Homebrew](https://brew.sh) to simplify the package installs.
 
-1. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
-2. Install [Python 2.7](https://www.python.org/)
-3. Run `./run-mac.sh`
+1. Install [Git](https://git-scm.com/)
+2. Download [this repo](https://github.com/everlifeai/everlife-server-node)
+3. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
+4. Install [Python 2.7](https://www.python.org/)
+5. Run `./run-mac.sh`
 
 Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
 
@@ -63,9 +66,11 @@ Once you are set up, you can proceed to [editing the configuration](#config), an
 
 Setting up on any *-nix machine is simple as well. Use the built in package manager to install the required packages (`yum install` or `apt-get`).
 
-1. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
-2. Install [Python 2.7](https://www.python.org/)
-3. Run `./run-linux.sh`
+1. Install [Git](https://git-scm.com/)
+2. Download [this repo](https://github.com/everlifeai/everlife-server-node)
+3. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
+4. Install [Python 2.7](https://www.python.org/)
+5. Run `./run-linux.sh`
 
 Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
 
@@ -77,9 +82,11 @@ Once you are set up, you can proceed to [editing the configuration](#config), an
 
 Setting up on any *-nix machine is simple as well. Use the built in package manager to install the required packages (`yum install` or `apt-get`).
 
-1. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
-2. Install [Python 2.7](https://www.python.org/)
-3. Run `./run-linux.sh`
+1. Install [Git](https://git-scm.com/)
+2. Download [this repo](https://github.com/everlifeai/everlife-server-node)
+3. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
+4. Install [Python 2.7](https://www.python.org/)
+5. Run `./run-linux.sh`
 
 Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
 
@@ -93,9 +100,11 @@ Installing on windows requires a bit more setup as we need to set up some *-nix 
 
 1. Install Cygwin: [64 Bit Version](https://www.cygwin.com/setup-x86_64.exe) or
    [32 Bit Version](https://www.cygwin.com/setup-x86.exe)
-2. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
-3. Install [Python 2.7](https://www.python.org/)
-4. Run `./run-win.cmd`
+2. Install [Git](https://git-scm.com/)
+3. Download [this repo](https://github.com/everlifeai/everlife-server-node)
+4. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
+5. Install [Python 2.7](https://www.python.org/)
+6. Run `./run-win.cmd`
 
 Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
 
@@ -150,3 +159,6 @@ In order to talk with your avatar over [Telegram](the://telegram.org) you need t
 
 Feel free to provide us your feedback and issues in our [discord support
 channel](https://discord.gg/TDyRSr4).
+
+-----
+
