@@ -1,7 +1,7 @@
 # Setting up Everlife Server Node
 
 This document contains instructions for setting up and running the
-**Everlife** avatar on a server machine. To simply get up and running with **Everlife**, you may want to [install the community node instead](https://github.com/everlifeai/everlife-node-releases/releases).
+**Everlife** avatar on a server machine so that your Avatar is up 24/7. To simply get up and running with a GUI node for **Everlife**, you may want to [install the EverLife Explorer] instead (https://github.com/everlifeai/everlife-node-releases/releases).
 
 ## Install
 
