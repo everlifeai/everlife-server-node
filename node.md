@@ -1,7 +1,19 @@
 # Setting up Everlife Server Node
 
 This document contains instructions for setting up and running the
-**Everlife** avatar on a server machine. 
+**Everlife** avatar on a server machine. To simply get up and running with **Everlife**, you may want to [install the community node instead](https://github.com/everlifeai/everlife-node-releases/releases).
+
+## Install
+
+To install the Everlife avatar, follow the instructions according to your operating system. After installing, use the `/intro` command and the avatar itself will walk you through a short guide.
+
+| Jump to: | [Windows](#Windows) | [MacOS](#MacOS) | [Ubuntu / DEBIAN](#ubuntudebian) | [CentOS / Red Hat](#centos) | [Docker](#DOCKER) |
+| -------- | ------------------- | --------------- | -------------------------------- | --------------------------- | ----------------- |
+|          |                     |                 |                                  |                             |                   |
+
+------
+
+<a name=docker></a>
 
 ## Docker
 
@@ -9,8 +21,29 @@ One option for installation is to use [Docker](https://www.docker.com). If you a
 
 ### Docker Install Steps
 
+There are two options for running docker. The first way is to download and use this repository to run and the other is to simply pull from [Docker Hub](https://hub.docker.com/r/everlifeai/everlife-server-node).
+
+#### Running using the GitHub repo
+
+This is the most flexible way to run and would be recommended if you want to edit the source code and modify the node for your particular use.
+
 1. Install [Docker](https://www.docker.com)
-2. Run `./run-docker.sh`
+2. Download [this repo](https://github.com/everlifeai/everlife-server-node)
+3. Run `./run-docker.sh`
+
+#### Running from Docker Hub
+
+This is the simplest option. Simply pull and run from [the Docker Hub](https://hub.docker.com/r/everlifeai/everlife-server-node) directly.
+
+```sh
+$> docker run -it --rm -p 8191:8191 -p 8192:8192 -v $(cwd)/everlifeai:/root/everlifeai everlifeai/everlife-server-node:latest node run.js
+```
+
+Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
+
+------
+
+<a name=mac></a>
 
 ## Mac Setup
 
@@ -20,13 +53,39 @@ Installing on your Mac is simple. You can use a package manager like [Homebrew](
 2. Install [Python 2.7](https://www.python.org/)
 3. Run `./run-mac.sh`
 
-## Linux Setup
+Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
+
+------
+
+<a name=ubuntudebian></a>
+
+## Ubuntu/Debian Setup
 
 Setting up on any *-nix machine is simple as well. Use the built in package manager to install the required packages (`yum install` or `apt-get`).
 
 1. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
 2. Install [Python 2.7](https://www.python.org/)
 3. Run `./run-linux.sh`
+
+Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
+
+------
+
+<a name=centos></a>
+
+## CentOS / Red Hat Setup
+
+Setting up on any *-nix machine is simple as well. Use the built in package manager to install the required packages (`yum install` or `apt-get`).
+
+1. Install [NodeJS](https://nodejs.org/en/download/) LTS Version: 14.16.0 and above
+2. Install [Python 2.7](https://www.python.org/)
+3. Run `./run-linux.sh`
+
+Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
+
+------
+
+<a name=windows></a>
 
 ## Windows Setup
 
@@ -38,6 +97,12 @@ Installing on windows requires a bit more setup as we need to set up some *-nix 
 3. Install [Python 2.7](https://www.python.org/)
 4. Run `./run-win.cmd`
 
+Once you are set up, you can proceed to [editing the configuration](#config), and setting up your [telegram chatbot](#telegram).
+
+------
+
+<a name=config></a>
+
 ## Configuration
 
 Your environment, data, and configuration is created under the `$HOME/everlife` folder. Here you will find your blockchain, wallets, configuration, and so on.
@@ -45,7 +110,13 @@ Your environment, data, and configuration is created under the `$HOME/everlife` 
 The first time you run, this folder will be set up for you.
 
 
+
+------
+
+<a name=telegram></a>
+
 ## Talking to your new bot over Telegram
+
 In order to talk with your avatar over [Telegram](the://telegram.org) you need to set up a communication channel with it. The steps for doing this are as follows:
 
 1. Go to [Telegram](https://telegram.me/botfather) to create a bot by typing the
@@ -60,7 +131,10 @@ In order to talk with your avatar over [Telegram](the://telegram.org) you need t
    
    (To find the exact location of your data folder you can check the logs or pass the `--info` parameter to the run script. For example (`./run-mac.sh —info`).
 
+----
+
 ## Next steps
+
 1. You should now join the Everlife network through an **Avatar Hub**. Contact our support channel in discord to get your invite code to join the hub and inform your avatar that you would like to join this Avatar Hub by saying
    
         /use_invite xxxx

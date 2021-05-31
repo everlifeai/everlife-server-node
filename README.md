@@ -1,4 +1,6 @@
 # Everlife Avatar Node
+![logo](./logo.png)
+
 Welcome to EverLife - Personal Avatar Network
 
 Create a LIFIE - An immutable Avatar of yourself.
